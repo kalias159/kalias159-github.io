@@ -24,14 +24,14 @@ body {
   background-color: #FFB6C1;
   color: #A52A2A;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .navbar.responsive {position: relative;}
   .navbar.responsive a.icon {
     position: absolute;
@@ -72,7 +72,7 @@ footer {
 }
 
 /* Responsive footer for small screens */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   footer {
     position: static;
     width: 100%;
